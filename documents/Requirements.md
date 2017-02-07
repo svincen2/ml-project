@@ -1,0 +1,26 @@
+﻿Requirements
+- Detect the ‘forwardness’ of travel
+   - Ensure a straight bearing down a hallway
+      - Alert when:
+         - Veering left or right
+         - Turning left or right
+            - Don’t alert if it is clear that user is intending to turn
+         - At the end of hallway (dead-end)
+         - At a T-junction
+         - Approaching a staircase
+      - Should determine “usable lane” based on surroundings
+         - People tend to walk on the right
+         - Hallways split by railing, low walls, etc...
+- Detect objects of interest in surrounding environment
+   - Doors
+      - Room numbers
+   - Signs
+      - With brail
+   - Stairways
+      - Up or down
+   - Adjacent hallways
+- Alerts must be audible or touch based
+   - (Need more clarification here)
+- Device
+   - (Need more clarification here)
+
